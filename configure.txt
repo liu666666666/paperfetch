@@ -1,0 +1,4 @@
+cd F:\ls_bangong\code\sci_paper_download\paperfetch_duogongneng\paperfetch
+f:
+python paperfetch.py -t "mesoscale eddies[title]" -p sel_paper -cutoff 2 -wordcloud -RetMax  20 -download
+可以配合Scihubdownloader 下载文献，用sel_paper 查找到的文献只保留doi的列拖到Scihubdownloader 去下载
